@@ -1,0 +1,33 @@
+.App-home {
+    background-image: linear-gradient(rgb(44,9,9), rgb(255,255,255));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-logoHotel {
+    weight: 130px;
+    height: 130px;
+    border-radius: 20px; /* Радиус скругления */
+    border: 3px solid rgb(44,9,9); /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /*Параметры тени*/
+}
+
+.App-main-head {
+    border-bottom-style: dashed;
+    border-color: rgb(85, 26, 105);
+    color: rgb(249, 244, 223);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.App-footer {
+    text-align: left;
+    background-color: rgb(44,9,9);
+    min-height: 15vh;
+}
+
+.review {
+    color: rgb(224,223,221);
+    margin-left: 5px;
+}

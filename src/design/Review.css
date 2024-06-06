@@ -1,0 +1,57 @@
+.form-review {
+    display: block;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+.nameClient{
+    width: 40%;
+    padding: 5px 0px;
+}
+
+.textReview {
+    width: 40%;
+    padding: 25px 0px;
+    text-align: left;
+}
+
+.button-newReview {
+    padding: 7px 24px;
+    margin-left: 30%;
+}
+
+.text-addition {
+    color: rgb(224,223,221);
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.post {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 3px solid rgb(116,93,93);
+    width: 60%;
+    margin: 10px;
+    left: 20px;
+}
+
+.post-name {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.post-role {
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+
+.post-text {
+    margin-left: 10px;
+}

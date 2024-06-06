@@ -1,0 +1,48 @@
+.app {
+    background-image: linear-gradient(rgb(44,9,9), rgb(72,42,42));
+    justify-content: center;
+}
+
+.review {
+    background-color: rgb(44,9,9);
+    color: rgb(224,223,221);
+    position: absolute;
+    left: 20px;
+}
+
+.post {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 3px solid rgb(116,93,93);
+    width: calc(80%);
+    margin: 10px;
+
+    left: 20px;
+}
+
+.back {
+    background-color: rgb(44,9,9);
+    color: rgb(44,9,9);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.reviewfg {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: rgb(44,9,9);
+}
+
+.post1df{
+    display: flex;
+    padding: 15px;
+    border: 2px solid rgb(116,93,93);
+    background-color: white;
+    margin-top: 15px;
+}

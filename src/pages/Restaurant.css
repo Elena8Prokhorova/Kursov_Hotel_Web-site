@@ -1,0 +1,95 @@
+.App-restaurant {
+    background-image: linear-gradient(rgb(44,9,9), rgb(255,255,255));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.App-main-restaurant {
+    border-bottom-style: dashed;
+    border-color: rgb(85, 26, 105);
+    color: rgb(249, 244, 223);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    width: 37%;
+    margin-left: 30%;
+}
+
+.restaurant-head {
+    text-align: left;
+    margin: 10px;
+    margin-left: 15px;
+    color: rgb(158,133,78);
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.restaurant-text {
+    text-align: left;
+    margin: 10px;
+    margin-top: 3px;
+    color: rgb(158,133,78);
+}
+
+.restaurant-button {
+    padding: 4px;
+    text-align: centre;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 160px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.food {
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    margin: 10px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 3px solid rgb(116,93,93);
+    height: 350px;
+}
+
+.food-a {
+    text-decoration: none;
+}
+
+.food-name {
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(50,17,17);
+}
+
+.food-img {
+    height: 140px;
+    border-radius: 20px; /* Радиус скругления */
+    border: 3px solid white; /* Параметры рамки */
+}
+
+.food-text {
+    font-size: 12px;
+}
+
+.App-footer-two {
+    text-align: center;
+    background-color: rgb(44,9,9);
+    min-height: 15vh;
+}
+
+.text-footer {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(249, 244, 223);
+}
+
+.App-link {
+    color: rgb(139,117,67);
+    font-weight: bolder;
+    font-size: 14px;
+}
